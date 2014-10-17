@@ -1,0 +1,37 @@
+span.squares1 {
+  display: inline-block;
+  width: 3em;
+  height: 3em;}
+span.squares2 {
+  position: relative;
+  display: inline-block;
+  width: 3em;
+  height: 3em;}
+i.sq_a {
+  position: absolute;
+  display:inline-block;
+  width:0;
+  height:0;
+  line-height:0;
+  border:1.5em solid #F8981C;
+  border-bottom:1.5em solid #F8981C;
+  left:0em;
+  top:0em;}
+i.sq_b {
+  position: absolute;
+  display:inline-block;
+  width:0;
+  height:0;
+  line-height:0;
+  border:1.5em solid #BCBBBB;
+  border-bottom:1.5em solid #BCBBBB;
+  left:0em;
+  top:4em;}
+i.sq_c {
+  position: absolute;
+  display:inline-block;
+  width:0;height:0;
+  line-height:0;
+  border:1.5em solid #747704;
+  border-bottom:1.5em solid #747704;
+  left:0em;top:8em;}
