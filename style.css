@@ -5,23 +5,38 @@ figure {
   margin: auto;
 }
 h1 {
-  text-align: right;
+  font-family: 'Quicksand', sans-serif;
+  clear: right;
+  display: inline-block;
+  float: right;
+  font-size: 4.045em;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 h2 {
-  text-align: right;
+  font-family: 'Quicksand', sans-serif;
+  clear: right;
+  display: inline-block;
+  float: right;
+  font-size: 1.618em;
+  margin: 0;
+  text-transform: uppercase;
 }
 hr {
+  clear: both;
   margin-top: 2em;
   margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
-  border:0;
   height:0;
   border-top: 0.25em solid #BCBBBB;
   border-bottom: 0em solid #BCBBBB;
 }
 img.logo {
+  display: inline;
+  float: left;
+  padding-bottom: 2em;
   width: 12%;
 }
 img.mainimg {
