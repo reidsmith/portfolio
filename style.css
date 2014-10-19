@@ -1,5 +1,6 @@
 body {
-  margin: 3em;
+  margin: 2em;
+  max-width:1200px;
 }
 figure {
   margin: auto;
@@ -25,7 +26,7 @@ h2 {
 }
 hr {
   clear: both;
-  margin-top: 2em;
+  margin-top: 0em;
   margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
@@ -36,21 +37,27 @@ hr {
 img.logo {
   display: inline;
   float: left;
-  padding-bottom: 2em;
-  width: 12%;
+  padding-bottom: 1em;
+  width: 7em;
 }
 img.mainimg {
   padding: 0 0;
   border: 0 0;
   margin: 0 0;
   width: 100%;
+  max-width: 900px;
 }
 section {
     float: right;
-    width: 81%;
+    width: 85%;
     padding: 0;
     margin: 0;;
     }
+div.container {
+  float: left;
+  margin-left: 6%;
+  margin-top: 13%;
+}
 span.squares_i {
   display: inline-block;
   width: 3em;
@@ -64,12 +71,12 @@ span.squares_ii {
 }
 span.sq_a {
   position: absolute;
-  display:inline-block;
+  display: inline-block;
   width:0;
   height:0;
   line-height:0;
-  border:1.5em solid #F8981C;
-  border-bottom:1.5em solid #F8981C;
+  border:2.5em solid #F8981C;
+  border-bottom:2.5em solid #F8981C;
   left:0em;
   top:0em;
 }
@@ -79,17 +86,46 @@ span.sq_b {
   width:0;
   height:0;
   line-height:0;
-  border:1.5em solid #BCBBBB;
-  border-bottom:1.5em solid #BCBBBB;
+  border:2.5em solid #BCBBBB;
+  border-bottom:2.5em solid #BCBBBB;
   left:0em;
-  top:4em;
+  top:6em;
 }
 span.sq_c {
   position: absolute;
   display:inline-block;
   width:0;height:0;
   line-height:0;
-  border:1.5em solid #3482DF;
-  border-bottom:1.5em solid #3482DF;
-  left:0em;top:8em;
+  border:2.5em solid #3482DF;
+  border-bottom:2.5em solid #3482DF;
+  left:0em;
+  top:12em;
+}
+div.leftlink {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  max-width: 300px;
+}
+div.rightlink {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  max-width: 300px;
+}
+div.centerlink {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  max-width: 300px;
+}
+img.link {
+  padding: 0 0;
+  border: 0 0;
+  margin: 0 0;
+  max-width:92%;
 }
