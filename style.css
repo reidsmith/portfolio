@@ -1,8 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+ v2.0 | 20110126
+ License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,6 +29,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin-left: auto;
+	margin-right: auto;
 }
 ol, ul {
 	list-style: none;
@@ -48,120 +49,89 @@ table {
 }
 /* end css reset */
 body {
-  /*max-width:1200px;*/
+	max-width: 1200px;
 }
 h1 {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: normal;
-  clear: right;
-  display: inline-block;
-  float: right;
-  font-size: 4.045em;
-  margin: 0;
-  text-transform: uppercase;
+	float: right;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 4.045em;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
 }
 h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
-  clear: right;
-  display: inline-block;
-  float: right;
-  font-size: 1.618em;
-  padding-bottom: 1.25em;
-  margin: 0;
-  text-transform: uppercase;
+	clear: right;
+	float: right;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.618em;
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 1.25em;
+	text-transform: uppercase;
 }
 h3 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 3.0337em;
-  color: #BCBBBB;
+	color: #BCBBBB;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 3.0337em;
 }
 hr {
-  clear: both;
-  margin-top: 0em;
-  margin-bottom: 2em;
-  margin-left: auto;
-  margin-right: auto;
-  height:0;
-  border-top: 0.25em solid #BCBBBB;
-  border-bottom: 0em solid #BCBBBB;
+	border-top: 0.125em solid #BCBBBB;
+	border-bottom: 0.125em solid #BCBBBB;
+	clear: both;
+	height:0;
 }
-img.logo {
-  display: inline;
-  float: left;
-  padding-bottom: 1em;
-	opacity: 1;
-}
-img.mainimg {
-  padding: 0 0;
-  border: 0 0;
-  margin: 0 0;
-  width: 100%;
-  max-width: 900px;
-}
-section {
-    float: right;
-    width: 85%;
-		margin-right: 2%;
-    }
-div.container {
-  float: left;
-  margin-left: 3em;
-  margin-top: 9.5em;
-}
-div.leftlink {
+.logo {
 	float: left;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
-  font-size: 3.03375em;
-  text-align: center;
-  display: inline-block;
-  width: 33%;
-	max-width: 300px;
+	opacity: 0.125;
+	padding-bottom: 1em;
 }
-div.rightlink {
-	float: left;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
-  font-size: 3.03375em;
-  text-align: center;
-  display: inline-block;
-  width: 33%;
-	max-width: 300px;
+.mainimg {
+	max-width: 1200px;
+	opacity: 0.85;
+	filter: alpha(opacity=85); /* For IE8 and earlier */
+	width: 100%;
 }
-div.centerlink {
+.col1of3 {
 	float: left;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
-  font-size: 3.03375em;
-  margin: 0 auto;
-  text-align: center;
-  display: inline-block;
-  width: 33%;
-	max-width: 300px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 3.03375em;
+	font-weight: bold;
+	margin: 0 1% 0 0;
+	max-width: 400px;
+	text-align: center;
+	width: 32.6666333%;
+}
+.col2of3 {
+	float: left;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 3.03375em;
+	font-weight: bold;
+	max-width: 400px;
+	text-align: center;
+	width: 32.6666333%;
+}
+.col3of3 {
+	float: left;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 3.03375em;
+	font-weight: bold;
+	margin: 0 0 0 1%;
+	max-width: 400px;
+	text-align: center;
+	width: 32.6666333%;
 }
 a:link {
+	color: black;
 	font-family: 'Wire One', sans-serif;
-  font-size: 0.5em;
+	font-size: 0.5em;
 	font-weight: bold;
 	text-decoration: none;
-	color: black;
 }
 a:visited {
 	color: #BCBBBB;
 }
-img.link {
-  padding: 0 0;
-  border: 0 0;
-  margin: 0 0;
-  max-width:92%;
-}
-aside {
-	float: left;
-	width: 13%;
-}
-aside img {
-	margin-top: 144px;
-  margin-left: 0.85em;
-	opacity: 0.3;
+.link {
+	border: 0;
+	max-width:100%;
+	padding: 0;
 }
