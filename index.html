@@ -1,44 +1,52 @@
 <!DOCTYPE htlm>
 <html dir="ltr" lang="en-US">
   <head>
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="style.css">
-      <link href='http://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
-      <title>Portfolio&mdash;Reid D. Smith</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum scale=1, user-scalable=no" />
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+    <title>Portfolio&mdash;Reid D. Smith</title>
+    <link rel="stylesheet" media="(max-width: 755px)" href="mobile.css">
+    <link rel="stylesheet" media="(min-width: 756px)" href="style.css">
   </head>
-  <body>
-    <main id="content" class="group" role="main">
-      <section>
-        <header>
-          <img class="logo" src="images/drupal.png" alt="Drupal Logo">
-            <h1>Reid D. Smith</h1>
-            <h2>Front-End Web Developer</h2>
-        </header>
-        <hr>
-        <article class="maincontent">
-          <figure>
-            <img class="mainimg" src="images/main_image.png" alt="screenshot of HTML code">
-          </figure>
-        </article>
-        <h3>Find me on</h3>
-        <div class="links">
-          <div class="leftlink"><img class="link" src="images/github.png" alt="GitHub"><div class="linkname1">GitHub</div><div class="url"><a href="https://github.com/reidsmith/">https://github.com/reidsmith</a></div></div>
-          <div class="centerlink"><img class="link" src="images/google_plus.png" alt="Google+"><div class="linkname2">Google+</div><div class="url"><a href="https://plus.google.com/+ReidDSmith707/">https://plus.google.com/+ReidDSmith707</a></div></div>
-          <!--TODO get LinkedIn account and update url below-->
-          <div class="rightlink"><img class="link" src="images/linkedin.png" alt="LinkedIn"><div class="linkname3">LinkedIn</div><div class="url"><a href="https://www.linkedin.com/">https://www.linkedin.com/</a></div>
-        </div>
-      </section>
-    </main>
-    <aside>
-      <div class="container">
-        <span class="squares_i">
-          <span class="squares_ii">
-            <span class="sq_a"></span>
-            <span class="sq_b"></span>
-            <span class="sq_c"></span>
-          </span>
-        </span>
+  <div class="grid">
+    <body>
+      <div class="col-6-7">
+        <main id="content" class="group" role="main">
+          <section>
+            <header>
+              <img class="logo" src="images/drupal.png" alt="Drupal Logo">
+                <h1>Reid D. Smith</h1>
+                <h2>Front-End Web Developer</h2>
+            </header>
+            <hr>
+            <article class="maincontent">
+              <figure>
+                <img class="mainimg" src="images/main_image.png" alt="screenshot of HTML code">
+              </figure>
+            </article>
+            <h3>Find me on</h3>
+            <div class="links">
+              <div class="col-2-7">
+                <div class="leftlink"><img class="link" src="images/github.png" alt="GitHub"><div class="linkname1">GitHub</div><div class="url"><a href="https://github.com/reidsmith/">https://github.com/reidsmith</a></div></div>
+              </div>
+              <div class="col-2-7">
+                <div class="centerlink"><img class="link" src="images/google_plus.png" alt="Google+"><div class="linkname2">Google+</div><div class="url"><a href="https://plus.google.com/+ReidDSmith707/">https://plus.google.com/+ReidDSmith707</a></div></div>
+              </div>
+              <div class="col-2-7">
+                <!--TODO get LinkedIn account and update url below-->
+                <div class="rightlink"><img class="link" src="images/linkedin.png" alt="LinkedIn"><div class="linkname3">LinkedIn</div><div class="url"><a href="https://www.linkedin.com/">https://www.linkedin.com/</a></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
       </div>
-    </aside>
-  </body>
+      <div class="col-1-7">
+        <aside>
+          <img class"decoration" src="images/blocks.png" alt="">
+        </aside>
+      </div>
+    </body>
+  </div>
 </html>
