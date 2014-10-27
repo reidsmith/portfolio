@@ -72,7 +72,9 @@ h2 {
 h3 {
 	color: #BCBBBB;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 3.0337em;
+	font-size: 1.51685em;
+	margin: 0 0 0 1em;
+	text-transform: uppercase;
 }
 hr {
 	border-top: 0.125em solid #BCBBBB;
