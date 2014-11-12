@@ -1,7 +1,8 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-v2.0 | 20110126
-License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -11,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -23,14 +24,12 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
-	margin-left: auto;
-	margin-right: auto;
 }
 ol, ul {
 	list-style: none;
@@ -47,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* end css reset */
+/****** end CSS reset *******/
 body {
 	margin: 4px 4px 4px 10px;
 }
@@ -84,43 +83,38 @@ h3 {
 	padding-bottom: 0.25em;
 	width: 11.5%;
 }
-.mainimg {
+.main-img {
 	opacity: 0.85;
 	width: 100%;
 }
-.col1of3 {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 3.03375em;
-	font-weight: bold;
-	text-align: center;
-	width: 100%;
-}
-.col2of3 {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 3.03375em;
-	font-weight: bold;
-	text-align: center;
-	width: 100%;
-}
-.col3of3 {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 3.03375em;
-	font-weight: bold;
-	text-align: center;
-	width: 100%;
-}
-a:link {
-	color: black;
-	font-family: 'Wire One', sans-serif;
-	font-size: 0.5em;
-	font-weight: bold;
-	text-decoration: none;
-}
-a:visited {
+h3 {
 	color: #BCBBBB;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.51685em;
+	text-transform: uppercase;
 }
-.link {
-	border: 0;
-	max-width:100%;
-	padding: 0;
+a > img {
+    width: 100%;
+}
+h4 {
+	color: #BCBBBB;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.51685em;
+    font-weight: bold;
+	text-transform: uppercase;
+}
+.row-3 {
+    font-family: 'Quicksand', sans-serif;
+	font-size: 1.3em;
+    margin: 1em 0 1em 0;
+    text-align: justify;
+	text-transform: uppercase;
+    width: 100%;
+}
+h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 3.03375em;
+	font-weight: bold;
+	text-align: center;
+	color: black;
 }
